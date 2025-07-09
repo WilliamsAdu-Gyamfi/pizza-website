@@ -4,6 +4,18 @@ body {
   background-color: #fff6ed;
   color: #2c2c2c;
 }
+.co-name {
+  background-color: #d3bc99;
+  font-family: "Courier New", Courier, monospace;
+  color: #d62828;
+}
+
+.motto {
+  font-family: "Courier New", Courier, monospace;
+  color: #d62828;
+  font-weight: bolder;
+  font-size: larger;
+}
 
 header {
   text-align: center;
@@ -95,11 +107,29 @@ header {
   font-weight: bold;
 }
 
-/* Small clock icon styling */
-.icon {
-  margin-right: 6px;
+.about {
+  padding: 40px 20px;
+  background-color: #fff9f0;
+  text-align: center;
 }
 
+.about h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #555;
+  line-height: 1.6;
+}
+
+#abt {
+  color: #d62828;
+}
 footer {
   background-color: #ffe6b6;
   padding: 15px;
